@@ -1,0 +1,80 @@
+{
+    "crypto_highest_daily_volume": {
+        "slug": "tether",
+        "symbol": "USDT",
+        "volume_24h": 54779483662.94
+    },
+    "top_and_worst_10_performing_daily": {
+        "best_performing": {
+            "1": {
+                "slug": "chain"
+            },
+            "2": {
+                "slug": "safe"
+            },
+            "3": {
+                "slug": "bittorrent"
+            },
+            "4": {
+                "slug": "klaytn"
+            },
+            "5": {
+                "slug": "convex-finance"
+            },
+            "6": {
+                "slug": "terra-luna"
+            },
+            "7": {
+                "slug": "waves"
+            },
+            "8": {
+                "slug": "kucoin-token"
+            },
+            "9": {
+                "slug": "green-metaverse-token"
+            },
+            "10": {
+                "slug": "zcash"
+            }
+        },
+        "worst_performing": {
+            "1": {
+                "slug": "maker"
+            },
+            "2": {
+                "slug": "kadena"
+            },
+            "3": {
+                "slug": "the-graph"
+            },
+            "4": {
+                "slug": "near-protocol"
+            },
+            "5": {
+                "slug": "polkadot-new"
+            },
+            "6": {
+                "slug": "celo"
+            },
+            "7": {
+                "slug": "gala"
+            },
+            "8": {
+                "slug": "curve-dao-token"
+            },
+            "9": {
+                "slug": "decred"
+            },
+            "10": {
+                "slug": "decentraland"
+            }
+        }
+    },
+    "amount_to_buy_and_P/L_first_20": {
+        "total_amount": 62361.16,
+        "total_daily_percent_profit_or_loss": -1.48
+    },
+    "amount_to_buy_crypto_over_volume_limit": {
+        "total_amount": 67164.76
+    }
+}

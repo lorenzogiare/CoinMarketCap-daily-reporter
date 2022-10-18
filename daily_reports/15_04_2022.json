@@ -1,0 +1,80 @@
+{
+    "crypto_highest_daily_volume": {
+        "slug": "tether",
+        "symbol": "USDT",
+        "volume_24h": 44712073899.34
+    },
+    "top_and_worst_10_performing_daily": {
+        "best_performing": {
+            "1": {
+                "slug": "hex"
+            },
+            "2": {
+                "slug": "audius"
+            },
+            "3": {
+                "slug": "xrp"
+            },
+            "4": {
+                "slug": "moonbeam"
+            },
+            "5": {
+                "slug": "bittorrent"
+            },
+            "6": {
+                "slug": "counos-x"
+            },
+            "7": {
+                "slug": "celsius"
+            },
+            "8": {
+                "slug": "dash"
+            },
+            "9": {
+                "slug": "eos"
+            },
+            "10": {
+                "slug": "maker"
+            }
+        },
+        "worst_performing": {
+            "1": {
+                "slug": "chainbing"
+            },
+            "2": {
+                "slug": "zilliqa"
+            },
+            "3": {
+                "slug": "astar"
+            },
+            "4": {
+                "slug": "gatetoken"
+            },
+            "5": {
+                "slug": "0x"
+            },
+            "6": {
+                "slug": "near-protocol"
+            },
+            "7": {
+                "slug": "wax"
+            },
+            "8": {
+                "slug": "terra-luna"
+            },
+            "9": {
+                "slug": "mina"
+            },
+            "10": {
+                "slug": "safe"
+            }
+        }
+    },
+    "amount_to_buy_and_P/L_first_20": {
+        "total_amount": 84614.48,
+        "total_daily_percent_profit_or_loss": 1.24
+    },
+    "amount_to_buy_crypto_over_volume_limit": {
+        "total_amount": 92332.33
+    }
+}

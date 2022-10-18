@@ -1,0 +1,98 @@
+
+--!!COPY YOUR COINMARKETCAP API KEY INSIDE THE SCRIPT BEFORE RUNNING!! (in the 'some options' section)--
+
+this program creates a JSON report every day at the same time (default: 00:00:00), which will be located
+inside a 'daily_reports' folder and named as the reporting date.
+
+
+---------STRUCTURE OF THE JSON REPORT (full report mode, check _OPTIONS_ sections)-------------------------------------
+
+-->"crypto_highest_daily_volume" : contains slug, symbol and daily volume of the cryptocurrency
+                                   with the highest 24 hour volume
+    --"slug"
+    --"symbol"
+    --"volume_24h"
+-----------------------------------------------------------------------------------------------------------------------
+-->"top_and_worst_10_performing_daily" : contains data of the top (and worst) 10 performing cryptos
+
+    --"best_performing" : slug, symbol and daily percent change of each crypto in the top 10 by performance
+        --"1"
+            --"slug"
+            --"symbol"
+            --"percent_change_24h"
+        ...
+        --"10"
+
+    --"worst_performing" :  slug, symbol and daily percent change of each crypto in the worst 10 by performance
+        --"1"
+            --"slug"
+            --"symbol"
+            --"percent_change_24h"
+        ...
+        --"10"
+-----------------------------------------------------------------------------------------------------------------------
+-->"amount_to_buy_and_P/L_first_20" : contains data of the top 20 cryptocurrencies by market cap, the amount that
+                                      would be needed to buy a unit of each one, as well as the percent profit or loss
+                                      that would have been achieved by buying those units the day before.
+
+    --"top_20_by_cap" : slug, symbol and price (on reporting time) of every crypto in the top 20 by market cap.
+        --"1"
+            --"slug"
+            --"symbol"
+            --"price"
+        ...
+        --"20"
+
+    --"total_amount" : amount (USD) needed to buy a unit of each cryptocurrency in the top 20
+
+    --"total_daily_percent_profit_or_loss" : percent profit or loss, if those 20 units had been bought the day beforE
+-----------------------------------------------------------------------------------------------------------------------
+-->"amount_to_buy_crypto_over_volume_limit": contains data of every crypto over a fixed daily volume threshold
+                                             (default: 76 mln USD, check _OPTIONS_ section), as well as the total amount
+                                             needed to buy a unit of each one these cryptocurrencies
+
+    --"cryptos" : slug, symbol and price of every crypto that satisfies the volume threshold
+        --"1"
+            --"slug"
+            --"symbol"
+            --"price"
+        ...
+
+    --"total_amount" : amount (USD) needed to buy one unit of every cripto over the volume threshold
+
+
+---------SCHEDULING CYCLE----------------------------------------------------------------------------------------------
+in order to avoid checking iteratively if it is time to issue the report, the program checks how much time
+it needs to wait and displays it along with the current time of running and the scheduled reporting time.
+after the waiting time, the report is generated inside the 'daily_reports' folder (created if not already existing).
+
+
+---------OPTIONS-------------------------------------------------------------------------------------------------------
+in the code there is a 'some options' section, which collects some variables useful
+for changing features of the report
+
+-->"market_cap_min" : sets the market cap threshold for analysis
+                      (apart from functions that need to operate under this limit).
+
+                      PLEASE NOTE!: a low 'market_cap_min' value will imply an inefficiency in the top and worst
+                      10 cryptocurrencies list. this is because coinmarketcap only allows for a maximum of
+                      500 cryptocurrencies inside the request, and by sorting cryptos by price change, the first 20
+                      will mainly be small cap that casually skyrocket in price overnight, while the last 20
+                      (from 480th to 500th) will still range inside a positive daily percent change (thus giving what
+                      I think are useless information).
+
+                      this variable aims to provide efficiency in the analysis.
+                      [DEFAULT: 1BLN]
+
+-->"daily_volume_min" : sets the daily volume benchmark that concerns the "amount_to_buy_crypto_over_volume_limit" data.
+                        [DEFAULT: 76MLN]
+
+-->"compact_report" : a more concise report might useful to some. if it is set to "True", it will return a report
+                      that only contains the strictly requested information.
+                      [DEFAULT: False]
+
+-->"reporting_time" : defines the fixed time at which the report will be issued
+                      [DEFAULT: "00:00:00"]
+
+-->"api_key" : contains the api key generated by coinmarketcap, which will be used to make requests
+               (each report sends 4 requests)

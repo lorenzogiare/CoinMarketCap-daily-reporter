@@ -1,0 +1,80 @@
+{
+    "crypto_highest_daily_volume": {
+        "slug": "tether",
+        "symbol": "USDT",
+        "volume_24h": 52808029879.57
+    },
+    "top_and_worst_10_performing_daily": {
+        "best_performing": {
+            "1": {
+                "slug": "eos"
+            },
+            "2": {
+                "slug": "unus-sed-leo"
+            },
+            "3": {
+                "slug": "chiliz"
+            },
+            "4": {
+                "slug": "tezos"
+            },
+            "5": {
+                "slug": "chain"
+            },
+            "6": {
+                "slug": "paxos-standard"
+            },
+            "7": {
+                "slug": "usdd"
+            },
+            "8": {
+                "slug": "binance-usd"
+            },
+            "9": {
+                "slug": "trueusd"
+            },
+            "10": {
+                "slug": "usd-coin"
+            }
+        },
+        "worst_performing": {
+            "1": {
+                "slug": "celsius"
+            },
+            "2": {
+                "slug": "curve-dao-token"
+            },
+            "3": {
+                "slug": "green-metaverse-token"
+            },
+            "4": {
+                "slug": "helium"
+            },
+            "5": {
+                "slug": "dogecoin"
+            },
+            "6": {
+                "slug": "loopring"
+            },
+            "7": {
+                "slug": "the-graph"
+            },
+            "8": {
+                "slug": "mina"
+            },
+            "9": {
+                "slug": "near-protocol"
+            },
+            "10": {
+                "slug": "kava"
+            }
+        }
+    },
+    "amount_to_buy_and_P/L_first_20": {
+        "total_amount": 49147.66,
+        "total_daily_percent_profit_or_loss": -2.03
+    },
+    "amount_to_buy_crypto_over_volume_limit": {
+        "total_amount": 65544.1
+    }
+}

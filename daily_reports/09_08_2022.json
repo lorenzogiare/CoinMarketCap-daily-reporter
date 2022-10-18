@@ -1,0 +1,80 @@
+{
+    "crypto_highest_daily_volume": {
+        "slug": "tether",
+        "symbol": "USDT",
+        "volume_24h": 48353357791.9
+    },
+    "top_and_worst_10_performing_daily": {
+        "best_performing": {
+            "1": {
+                "slug": "statera"
+            },
+            "2": {
+                "slug": "zcash"
+            },
+            "3": {
+                "slug": "green-metaverse-token"
+            },
+            "4": {
+                "slug": "chain"
+            },
+            "5": {
+                "slug": "kava"
+            },
+            "6": {
+                "slug": "basic-attention-token"
+            },
+            "7": {
+                "slug": "hex"
+            },
+            "8": {
+                "slug": "oasis-network"
+            },
+            "9": {
+                "slug": "mina"
+            },
+            "10": {
+                "slug": "pax-gold"
+            }
+        },
+        "worst_performing": {
+            "1": {
+                "slug": "lido-dao"
+            },
+            "2": {
+                "slug": "filecoin"
+            },
+            "3": {
+                "slug": "curve-dao-token"
+            },
+            "4": {
+                "slug": "uniswap"
+            },
+            "5": {
+                "slug": "kusama"
+            },
+            "6": {
+                "slug": "the-graph"
+            },
+            "7": {
+                "slug": "maker"
+            },
+            "8": {
+                "slug": "thorchain"
+            },
+            "9": {
+                "slug": "avalanche"
+            },
+            "10": {
+                "slug": "internet-computer"
+            }
+        }
+    },
+    "amount_to_buy_and_P/L_first_20": {
+        "total_amount": 48688.21,
+        "total_daily_percent_profit_or_loss": -3.6
+    },
+    "amount_to_buy_crypto_over_volume_limit": {
+        "total_amount": 54371.34
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "crypto_highest_daily_volume": {
+        "slug": "tether",
+        "symbol": "USDT",
+        "volume_24h": 59499704533.52
+    },
+    "top_and_worst_10_performing_daily": {
+        "best_performing": {
+            "1": {
+                "slug": "tether"
+            },
+            "2": {
+                "slug": "youcash"
+            },
+            "3": {
+                "slug": "binance-usd"
+            },
+            "4": {
+                "slug": "usd-coin"
+            },
+            "5": {
+                "slug": "trueusd"
+            },
+            "6": {
+                "slug": "multi-collateral-dai"
+            },
+            "7": {
+                "slug": "frax"
+            },
+            "8": {
+                "slug": "toncoin"
+            },
+            "9": {
+                "slug": "chain"
+            },
+            "10": {
+                "slug": "unus-sed-leo"
+            }
+        },
+        "worst_performing": {
+            "1": {
+                "slug": "filecoin"
+            },
+            "2": {
+                "slug": "flow"
+            },
+            "3": {
+                "slug": "ethereum-classic"
+            },
+            "4": {
+                "slug": "apecoin-ape"
+            },
+            "5": {
+                "slug": "near-protocol"
+            },
+            "6": {
+                "slug": "avalanche"
+            },
+            "7": {
+                "slug": "axie-infinity"
+            },
+            "8": {
+                "slug": "dogecoin"
+            },
+            "9": {
+                "slug": "theta-network"
+            },
+            "10": {
+                "slug": "internet-computer"
+            }
+        }
+    },
+    "amount_to_buy_and_P/L_first_20": {
+        "total_amount": 45249.15,
+        "total_daily_percent_profit_or_loss": -8.9
+    },
+    "amount_to_buy_crypto_over_volume_limit": {
+        "total_amount": 59217.33
+    }
+}

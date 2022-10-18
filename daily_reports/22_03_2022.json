@@ -1,0 +1,839 @@
+{
+    "crypto_highest_daily_volume": {
+        "slug": "tether",
+        "symbol": "USDT",
+        "volume_24h": 70925642680.78
+    },
+    "top_and_worst_10_performing_daily": {
+        "best_performing": {
+            "1": {
+                "slug": "ethereum-classic",
+                "symbol": "ETC",
+                "percent_change_24h": 17.46
+            },
+            "2": {
+                "slug": "apecoin-ape",
+                "symbol": "APE",
+                "percent_change_24h": 17.43
+            },
+            "3": {
+                "slug": "bitcoin-cash",
+                "symbol": "BCH",
+                "percent_change_24h": 12.76
+            },
+            "4": {
+                "slug": "helium",
+                "symbol": "HNT",
+                "percent_change_24h": 9.92
+            },
+            "5": {
+                "slug": "cardano",
+                "symbol": "ADA",
+                "percent_change_24h": 8.45
+            },
+            "6": {
+                "slug": "internet-computer",
+                "symbol": "ICP",
+                "percent_change_24h": 7.6
+            },
+            "7": {
+                "slug": "quant",
+                "symbol": "QNT",
+                "percent_change_24h": 7.18
+            },
+            "8": {
+                "slug": "bitcoin-sv",
+                "symbol": "BSV",
+                "percent_change_24h": 7.15
+            },
+            "9": {
+                "slug": "elrond-egld",
+                "symbol": "EGLD",
+                "percent_change_24h": 6.87
+            },
+            "10": {
+                "slug": "polkadot-new",
+                "symbol": "DOT",
+                "percent_change_24h": 6.57
+            }
+        },
+        "worst_performing": {
+            "1": {
+                "slug": "zcash",
+                "symbol": "ZEC",
+                "percent_change_24h": -3.35
+            },
+            "2": {
+                "slug": "hex",
+                "symbol": "HEX",
+                "percent_change_24h": -3.17
+            },
+            "3": {
+                "slug": "osmosis",
+                "symbol": "OSMO",
+                "percent_change_24h": -2.69
+            },
+            "4": {
+                "slug": "terra-luna",
+                "symbol": "LUNA",
+                "percent_change_24h": -2.23
+            },
+            "5": {
+                "slug": "avalanche",
+                "symbol": "AVAX",
+                "percent_change_24h": -1.71
+            },
+            "6": {
+                "slug": "thorchain",
+                "symbol": "RUNE",
+                "percent_change_24h": -1.5
+            },
+            "7": {
+                "slug": "aave",
+                "symbol": "AAVE",
+                "percent_change_24h": -1.11
+            },
+            "8": {
+                "slug": "arweave",
+                "symbol": "AR",
+                "percent_change_24h": -1.09
+            },
+            "9": {
+                "slug": "frax",
+                "symbol": "FRAX",
+                "percent_change_24h": -0.21
+            },
+            "10": {
+                "slug": "terrausd",
+                "symbol": "UST",
+                "percent_change_24h": -0.12
+            }
+        }
+    },
+    "amount_to_buy_and_P/L_first_20": {
+        "top_20_by_cap": {
+            "1": {
+                "slug": "bitcoin",
+                "symbol": "BTC",
+                "price": 42652.89
+            },
+            "2": {
+                "slug": "ethereum",
+                "symbol": "ETH",
+                "price": 3007.53
+            },
+            "3": {
+                "slug": "tether",
+                "symbol": "USDT",
+                "price": 1.0
+            },
+            "4": {
+                "slug": "bnb",
+                "symbol": "BNB",
+                "price": 406.51
+            },
+            "5": {
+                "slug": "usd-coin",
+                "symbol": "USDC",
+                "price": 1.0
+            },
+            "6": {
+                "slug": "xrp",
+                "symbol": "XRP",
+                "price": 0.84
+            },
+            "7": {
+                "slug": "terra-luna",
+                "symbol": "LUNA",
+                "price": 93.54
+            },
+            "8": {
+                "slug": "cardano",
+                "symbol": "ADA",
+                "price": 0.98
+            },
+            "9": {
+                "slug": "solana",
+                "symbol": "SOL",
+                "price": 91.91
+            },
+            "10": {
+                "slug": "avalanche",
+                "symbol": "AVAX",
+                "price": 85.93
+            },
+            "11": {
+                "slug": "polkadot-new",
+                "symbol": "DOT",
+                "price": 20.05
+            },
+            "12": {
+                "slug": "binance-usd",
+                "symbol": "BUSD",
+                "price": 1.0
+            },
+            "13": {
+                "slug": "dogecoin",
+                "symbol": "DOGE",
+                "price": 0.12
+            },
+            "14": {
+                "slug": "terrausd",
+                "symbol": "UST",
+                "price": 1.0
+            },
+            "15": {
+                "slug": "shiba-inu",
+                "symbol": "SHIB",
+                "price": 0.0
+            },
+            "16": {
+                "slug": "polygon",
+                "symbol": "MATIC",
+                "price": 1.52
+            },
+            "17": {
+                "slug": "wrapped-bitcoin",
+                "symbol": "WBTC",
+                "price": 42622.03
+            },
+            "18": {
+                "slug": "cronos",
+                "symbol": "CRO",
+                "price": 0.42
+            },
+            "19": {
+                "slug": "multi-collateral-dai",
+                "symbol": "DAI",
+                "price": 1.0
+            },
+            "20": {
+                "slug": "litecoin",
+                "symbol": "LTC",
+                "price": 121.85
+            }
+        },
+        "total_amount": 89111.14,
+        "total_daily_percent_profit_or_loss": 3.29
+    },
+    "amount_to_buy_crypto_over_volume_limit": {
+        "cryptos": {
+            "1": {
+                "slug": "tether",
+                "symbol": "USDT",
+                "price": 1.0
+            },
+            "2": {
+                "slug": "bitcoin",
+                "symbol": "BTC",
+                "price": 42652.89
+            },
+            "3": {
+                "slug": "ethereum",
+                "symbol": "ETH",
+                "price": 3007.53
+            },
+            "4": {
+                "slug": "binance-usd",
+                "symbol": "BUSD",
+                "price": 1.0
+            },
+            "5": {
+                "slug": "bitcoin-cash",
+                "symbol": "BCH",
+                "price": 379.58
+            },
+            "6": {
+                "slug": "usd-coin",
+                "symbol": "USDC",
+                "price": 1.0
+            },
+            "7": {
+                "slug": "ethereum-classic",
+                "symbol": "ETC",
+                "price": 45.76
+            },
+            "8": {
+                "slug": "apecoin-ape",
+                "symbol": "APE",
+                "price": 12.19
+            },
+            "9": {
+                "slug": "xrp",
+                "symbol": "XRP",
+                "price": 0.84
+            },
+            "10": {
+                "slug": "terra-luna",
+                "symbol": "LUNA",
+                "price": 93.54
+            },
+            "11": {
+                "slug": "solana",
+                "symbol": "SOL",
+                "price": 91.91
+            },
+            "12": {
+                "slug": "bnb",
+                "symbol": "BNB",
+                "price": 406.51
+            },
+            "13": {
+                "slug": "avalanche",
+                "symbol": "AVAX",
+                "price": 85.93
+            },
+            "14": {
+                "slug": "cardano",
+                "symbol": "ADA",
+                "price": 0.98
+            },
+            "15": {
+                "slug": "green-metaverse-token",
+                "symbol": "GMT",
+                "price": 0.78
+            },
+            "16": {
+                "slug": "weth",
+                "symbol": "WETH",
+                "price": 3007.05
+            },
+            "17": {
+                "slug": "flex",
+                "symbol": "FLEX",
+                "price": 3.96
+            },
+            "18": {
+                "slug": "jasmy",
+                "symbol": "JASMY",
+                "price": 0.04
+            },
+            "19": {
+                "slug": "polkadot-new",
+                "symbol": "DOT",
+                "price": 20.05
+            },
+            "20": {
+                "slug": "litecoin",
+                "symbol": "LTC",
+                "price": 121.85
+            },
+            "21": {
+                "slug": "waves",
+                "symbol": "WAVES",
+                "price": 32.65
+            },
+            "22": {
+                "slug": "tron",
+                "symbol": "TRX",
+                "price": 0.06
+            },
+            "23": {
+                "slug": "gala",
+                "symbol": "GALA",
+                "price": 0.24
+            },
+            "24": {
+                "slug": "shiba-inu",
+                "symbol": "SHIB",
+                "price": 0.0
+            },
+            "25": {
+                "slug": "eos",
+                "symbol": "EOS",
+                "price": 2.49
+            },
+            "26": {
+                "slug": "wbnb",
+                "symbol": "WBNB",
+                "price": 405.7
+            },
+            "27": {
+                "slug": "cosmos",
+                "symbol": "ATOM",
+                "price": 28.2
+            },
+            "28": {
+                "slug": "polygon",
+                "symbol": "MATIC",
+                "price": 1.52
+            },
+            "29": {
+                "slug": "chainlink",
+                "symbol": "LINK",
+                "price": 15.53
+            },
+            "30": {
+                "slug": "fantom",
+                "symbol": "FTM",
+                "price": 1.29
+            },
+            "31": {
+                "slug": "the-sandbox",
+                "symbol": "SAND",
+                "price": 3.14
+            },
+            "32": {
+                "slug": "dogecoin",
+                "symbol": "DOGE",
+                "price": 0.12
+            },
+            "33": {
+                "slug": "moviebloc",
+                "symbol": "MBL",
+                "price": 0.02
+            },
+            "34": {
+                "slug": "terrausd",
+                "symbol": "UST",
+                "price": 1.0
+            },
+            "35": {
+                "slug": "biswap",
+                "symbol": "BSW",
+                "price": 0.83
+            },
+            "36": {
+                "slug": "near-protocol",
+                "symbol": "NEAR",
+                "price": 11.21
+            },
+            "37": {
+                "slug": "dash",
+                "symbol": "DASH",
+                "price": 128.23
+            },
+            "38": {
+                "slug": "try-finance",
+                "symbol": "TRY",
+                "price": 0.07
+            },
+            "39": {
+                "slug": "algorand",
+                "symbol": "ALGO",
+                "price": 0.82
+            },
+            "40": {
+                "slug": "decentraland",
+                "symbol": "MANA",
+                "price": 2.45
+            },
+            "41": {
+                "slug": "iotex",
+                "symbol": "IOTX",
+                "price": 0.09
+            },
+            "42": {
+                "slug": "trust-wallet-token",
+                "symbol": "TWT",
+                "price": 1.2
+            },
+            "43": {
+                "slug": "stellar",
+                "symbol": "XLM",
+                "price": 0.21
+            },
+            "44": {
+                "slug": "axie-infinity",
+                "symbol": "AXS",
+                "price": 52.76
+            },
+            "45": {
+                "slug": "wink",
+                "symbol": "WIN",
+                "price": 0.0
+            },
+            "46": {
+                "slug": "filecoin",
+                "symbol": "FIL",
+                "price": 18.38
+            },
+            "47": {
+                "slug": "multi-collateral-dai",
+                "symbol": "DAI",
+                "price": 1.0
+            },
+            "48": {
+                "slug": "mines-of-dalarnia",
+                "symbol": "DAR",
+                "price": 0.89
+            },
+            "49": {
+                "slug": "loopring",
+                "symbol": "LRC",
+                "price": 0.82
+            },
+            "50": {
+                "slug": "vechain",
+                "symbol": "VET",
+                "price": 0.05
+            },
+            "51": {
+                "slug": "origin-protocol",
+                "symbol": "OGN",
+                "price": 0.69
+            },
+            "52": {
+                "slug": "uniswap",
+                "symbol": "UNI",
+                "price": 9.84
+            },
+            "53": {
+                "slug": "elrond-egld",
+                "symbol": "EGLD",
+                "price": 185.63
+            },
+            "54": {
+                "slug": "zcash",
+                "symbol": "ZEC",
+                "price": 176.76
+            },
+            "55": {
+                "slug": "immutable-x",
+                "symbol": "IMX",
+                "price": 2.32
+            },
+            "56": {
+                "slug": "spell-token",
+                "symbol": "SPELL",
+                "price": 0.0
+            },
+            "57": {
+                "slug": "qtum",
+                "symbol": "QTUM",
+                "price": 7.57
+            },
+            "58": {
+                "slug": "serum",
+                "symbol": "SRM",
+                "price": 2.5
+            },
+            "59": {
+                "slug": "thorchain",
+                "symbol": "RUNE",
+                "price": 8.73
+            },
+            "60": {
+                "slug": "internet-computer",
+                "symbol": "ICP",
+                "price": 18.27
+            },
+            "61": {
+                "slug": "terrausd-wormhole",
+                "symbol": "UST",
+                "price": 1.0
+            },
+            "62": {
+                "slug": "kingdefi",
+                "symbol": "KRW",
+                "price": 0.0
+            },
+            "63": {
+                "slug": "neo",
+                "symbol": "NEO",
+                "price": 23.78
+            },
+            "64": {
+                "slug": "aave",
+                "symbol": "AAVE",
+                "price": 154.74
+            },
+            "65": {
+                "slug": "oasis-network",
+                "symbol": "ROSE",
+                "price": 0.26
+            },
+            "66": {
+                "slug": "sxp",
+                "symbol": "SXP",
+                "price": 1.52
+            },
+            "67": {
+                "slug": "pancakeswap",
+                "symbol": "CAKE",
+                "price": 6.97
+            },
+            "68": {
+                "slug": "theta-network",
+                "symbol": "THETA",
+                "price": 3.12
+            },
+            "69": {
+                "slug": "just",
+                "symbol": "JST",
+                "price": 0.05
+            },
+            "70": {
+                "slug": "myneighboralice",
+                "symbol": "ALICE",
+                "price": 6.62
+            },
+            "71": {
+                "slug": "bitcoin-gold",
+                "symbol": "BTG",
+                "price": 42.86
+            },
+            "72": {
+                "slug": "constitutiondao",
+                "symbol": "PEOPLE",
+                "price": 0.07
+            },
+            "73": {
+                "slug": "curve-dao-token",
+                "symbol": "CRV",
+                "price": 2.29
+            },
+            "74": {
+                "slug": "omg",
+                "symbol": "OMG",
+                "price": 4.86
+            },
+            "75": {
+                "slug": "the-graph",
+                "symbol": "GRT",
+                "price": 0.41
+            },
+            "76": {
+                "slug": "smooth-love-potion",
+                "symbol": "SLP",
+                "price": 0.02
+            },
+            "77": {
+                "slug": "bitcoin-sv",
+                "symbol": "BSV",
+                "price": 91.39
+            },
+            "78": {
+                "slug": "chiliz",
+                "symbol": "CHZ",
+                "price": 0.21
+            },
+            "79": {
+                "slug": "wrapped-bitcoin",
+                "symbol": "WBTC",
+                "price": 42622.03
+            },
+            "80": {
+                "slug": "sushiswap",
+                "symbol": "SUSHI",
+                "price": 3.45
+            },
+            "81": {
+                "slug": "aragon",
+                "symbol": "ANT",
+                "price": 4.87
+            },
+            "82": {
+                "slug": "ethereum-name-service",
+                "symbol": "ENS",
+                "price": 17.48
+            },
+            "83": {
+                "slug": "frontier",
+                "symbol": "FRONT",
+                "price": 0.56
+            },
+            "84": {
+                "slug": "enjin-coin",
+                "symbol": "ENJ",
+                "price": 1.47
+            },
+            "85": {
+                "slug": "okb",
+                "symbol": "OKB",
+                "price": 19.79
+            },
+            "86": {
+                "slug": "monero",
+                "symbol": "XMR",
+                "price": 195.6
+            },
+            "87": {
+                "slug": "ocean-protocol",
+                "symbol": "OCEAN",
+                "price": 0.6
+            },
+            "88": {
+                "slug": "trueusd",
+                "symbol": "TUSD",
+                "price": 1.0
+            },
+            "89": {
+                "slug": "flow",
+                "symbol": "FLOW",
+                "price": 6.16
+            },
+            "90": {
+                "slug": "sun-token",
+                "symbol": "SUN",
+                "price": 0.01
+            },
+            "91": {
+                "slug": "ftx-token",
+                "symbol": "FTT",
+                "price": 45.72
+            },
+            "92": {
+                "slug": "wavax",
+                "symbol": "WAVAX",
+                "price": 85.96
+            },
+            "93": {
+                "slug": "league-of-kingdoms",
+                "symbol": "LOKA",
+                "price": 2.42
+            },
+            "94": {
+                "slug": "harmony",
+                "symbol": "ONE",
+                "price": 0.14
+            },
+            "95": {
+                "slug": "qcash",
+                "symbol": "QC",
+                "price": 0.14
+            },
+            "96": {
+                "slug": "wrapped-fantom",
+                "symbol": "WFTM",
+                "price": 1.29
+            },
+            "97": {
+                "slug": "fetch",
+                "symbol": "FET",
+                "price": 0.38
+            },
+            "98": {
+                "slug": "alien-worlds",
+                "symbol": "TLM",
+                "price": 0.11
+            },
+            "99": {
+                "slug": "kyber-network-crystal-v2",
+                "symbol": "KNC",
+                "price": 3.32
+            },
+            "100": {
+                "slug": "tezos",
+                "symbol": "XTZ",
+                "price": 3.32
+            },
+            "101": {
+                "slug": "bittorrent-new",
+                "symbol": "BTT",
+                "price": 0.0
+            },
+            "102": {
+                "slug": "yearn-finance",
+                "symbol": "YFI",
+                "price": 20393.97
+            },
+            "103": {
+                "slug": "usdk",
+                "symbol": "USDK",
+                "price": 1.0
+            },
+            "104": {
+                "slug": "synthetix-network-token",
+                "symbol": "SNX",
+                "price": 5.31
+            },
+            "105": {
+                "slug": "dydx",
+                "symbol": "DYDX",
+                "price": 5.13
+            },
+            "106": {
+                "slug": "basic-attention-token",
+                "symbol": "BAT",
+                "price": 0.82
+            },
+            "107": {
+                "slug": "hedera",
+                "symbol": "HBAR",
+                "price": 0.22
+            },
+            "108": {
+                "slug": "ontology",
+                "symbol": "ONT",
+                "price": 0.54
+            },
+            "109": {
+                "slug": "thorchain-erc20",
+                "symbol": "RUNE",
+                "price": 8.59
+            },
+            "110": {
+                "slug": "celo",
+                "symbol": "CELO",
+                "price": 2.92
+            },
+            "111": {
+                "slug": "1inch",
+                "symbol": "1INCH",
+                "price": 1.56
+            },
+            "112": {
+                "slug": "looksrare",
+                "symbol": "LOOKS",
+                "price": 1.92
+            },
+            "113": {
+                "slug": "mobox",
+                "symbol": "MBOX",
+                "price": 2.37
+            },
+            "114": {
+                "slug": "uma",
+                "symbol": "UMA",
+                "price": 7.64
+            },
+            "115": {
+                "slug": "helium",
+                "symbol": "HNT",
+                "price": 24.92
+            },
+            "116": {
+                "slug": "compound",
+                "symbol": "COMP",
+                "price": 115.48
+            },
+            "117": {
+                "slug": "biconomy",
+                "symbol": "BICO",
+                "price": 1.61
+            },
+            "118": {
+                "slug": "coin98",
+                "symbol": "C98",
+                "price": 1.6
+            },
+            "119": {
+                "slug": "alpine-f1-team-fan-token",
+                "symbol": "ALPINE",
+                "price": 8.89
+            },
+            "120": {
+                "slug": "as-roma-fan-token",
+                "symbol": "ASR",
+                "price": 4.14
+            },
+            "121": {
+                "slug": "adventure-gold",
+                "symbol": "AGLD",
+                "price": 1.7
+            },
+            "122": {
+                "slug": "mina",
+                "symbol": "MINA",
+                "price": 2.2
+            },
+            "123": {
+                "slug": "zilliqa",
+                "symbol": "ZIL",
+                "price": 0.05
+            }
+        },
+        "total_amount": 115006.25
+    }
+}
